@@ -80,3 +80,6 @@ nav ul li a {
 	-webkit-transform: scale(1.025);
 	transform: scale(1.025);
 }
+body {
+	background-color: #1b2029;
+}
