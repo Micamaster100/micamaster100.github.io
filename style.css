@@ -10,7 +10,6 @@
 .containter	{
 	height: 100vh;
 	width: 100%;
-	background-color: #1b2029;
 	background-position: center;
 	background-size: cover;
 	box-sizing: border-box;
@@ -24,8 +23,12 @@
 	align-items: center;
 }
 nav {
+	text-align: center;
+	background-color: #323a48;
 	flex: 1;
 	padding-left: 60px;
+	padding: 15px;
+	border-radius: 100vh;
 }
 nav ul li {
 	display: inline-block;
@@ -77,8 +80,8 @@ nav ul li a {
 }
 .btn:hover, .btn:focus, .btn:active {
 	box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
-	-webkit-transform: scale(1.025);
-	transform: scale(1.025);
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
 }
 body {
 	background-color: #1b2029;
