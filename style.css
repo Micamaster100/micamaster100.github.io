@@ -17,13 +17,14 @@
 	position: relative;
 }
 .navbar {
-	width: 100%;
+	width: 95%;
 	height: 15vh;
 	margin: auto;
 	display: flex;
 	align-items: center;
 }
 nav {
+	width: 90%
 	text-align: center;
 	background-color: #323a48;
 	flex: 1;
