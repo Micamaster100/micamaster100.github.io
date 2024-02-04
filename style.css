@@ -7,6 +7,7 @@
 	margin: 0;
 	padding: 0;
 }
+
 .containter	{
 	height: 100vh;
 	width: 100%;
@@ -43,14 +44,24 @@ nav ul li a {
 	color: #b5b5b5;
 	
 }
-.content h1 {
+h1 {
+	text-decoration: none;
 	font-size: 60px;
 	font-weight: 500;
 	margin-top: 24px;
 	margin-bottom: 15px;
 	color: #b5b5b5;
 }
-.content p {
+h2 {
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 500;
+	margin-top: 24px;
+	margin-bottom: 15px;
+	color: #b5b5b5;
+}
+
+p {
 	font-size: 20px;
 	color: #b5b5b5;
 }
@@ -59,12 +70,19 @@ nav ul li a {
 	margin-left: 10%;
 	margin-top: 10%;
 }	
+.contentCenter {
+	font-family: "Nunito", sans-serif;
+	margin-left: 0%;
+	margin-top: 5%;
+	text-align: center;
+}	
 .content .btn {
 	display: inline-block;
 	background: color
 }
 
 .btn {
+	display: inline-block;
 	color: #ffff;
 	font-family: "Nunito", sans-serif;
 	font-size: 23.5px;
@@ -85,4 +103,28 @@ nav ul li a {
 }
 body {
 	background-color: #1b2029;
+}
+.gallery {
+	-webkit-transition-duration: 0.25s;
+	transition-duration: 0.25s;
+	display: inline-block;
+	border: 3px solid #8f8f8f;
+	margin: 5px;
+	border-radius: 15px;
+	background-color: #29313d;
+}
+.gallery description {
+	padding: 10px;
+	text-align: center;
+}
+.gallery:hover {
+	border: 3px solid #ccc;
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+.gallery img {
+	width: 200;
+	height: 100px;
+	border-radius: 12.5px;
+	object-fit: cover;
 }
