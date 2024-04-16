@@ -126,6 +126,6 @@ body {
 .gallery img {
 	width: 200px;
 	height: 100px;
-	border-radius: 12.5px;
+	border-radius: 13px;
 	object-fit: cover;
 }
