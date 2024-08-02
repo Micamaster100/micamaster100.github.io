@@ -1,31 +1,35 @@
 <html>
 	<head>
-		<style>
-			a {
-				color: #b5b5b5;
-				text-decoration: none;
-				font-weight: 750;
-			}
-		</style>
-	  <title>M100</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-	  <link href="style.css" rel="stylesheet" />
+		<link href="style.css" rel="stylesheet" />
+		<script src="script.js"></script>
+		  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		  <script>
+		    $(document).ready(function(){
+		      $("#navbar").load("navbar.html");
+		      $("#header").load("header.html");
+		    });
+		  </script>
+		  <div id="header"></div>
+			<!-- Header -->
+			<title>M100</title>
+			<meta name="description" content="My website about things I've made and about me.">
+			<meta property="og:url" content="https://micamaster100.github.io/">
+			<meta property="og:type" content="website">
+			<meta property="og:title" content="Micamaster100">
+			<meta property="og:description" content="My website about things I've made and about me.">
+			<meta property="og:image" content="https://micamaster100.github.io/assets/images/Thumbnail.png">
+			<meta name="twitter:card" content="summary_large_image">
+			<meta property="twitter:domain" content="micamaster100.github.io">
+			<meta property="twitter:url" content="https://micamaster100.github.io/">
+			<meta name="twitter:title" content="Micamaster100">
+			<meta name="twitter:description" content="My website about things I've made and about me.">
+			<meta name="twitter:image" content="assets/images/Thumbnail.png">
+
 	</head>
 	<body>
 		<div class="containter">
-			<div class="navbar">
-				<nav>
-					<ul>
-						<li><a href=".">🏠 Home</a></li>
-						<li><a href="./projects">📦 Projects</a></li>
-						<li><a href="./resume">📄 Resume</a></li>
-						<li><a href="./discord">💬 Discord Server</a></li>
-						<li><a href="https://www.roblox.com/groups/16658958">🕹️ M100 Studios</a></li>
-					</ul>
-				</nav>
-			</div>
+			<div id="navbar"></div>
+
 			<div class="contentCenter">
 				<center>				
 				<h1>Projects</h1>
@@ -51,7 +55,8 @@
 							M-Tools
 						</div>
 					</a>
-				</div><div class="gallery">  
+				</div>
+				<div class="gallery">  
 					<a target = "_blank" href="https://micamaster100.github.io">
 						<img src="https://raw.githubusercontent.com/Micamaster100/stuff/main/PC.png">
 						<div class="description">
@@ -60,6 +65,7 @@
 					</a>
 				</div>
 
+				
 				
 				<h2>Resources</h2>
 				</center>

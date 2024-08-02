@@ -1,6 +1,12 @@
 @font-face {
 	font-family: Nunito;
-	src:url(assets/);
+	src:url(assets/fonts//Nunito-Regular.ttf);
+}
+
+a {
+	color: #b5b5b5;
+	text-decoration: none;
+	font-weight: 750;
 }
 
 *{
@@ -38,7 +44,7 @@ nav ul li {
 	margin: 0px 20px;
 }
 nav ul li a {
-	font-family: "Nunito", sans-serif;
+	font-family: Nunito;
 	font-weight: 650;
 	font-size: 20px;
 	text-decoration: none;
@@ -57,6 +63,7 @@ h1 {
 	color: #b5b5b5;
 }
 h2 {
+	font-family: Nunito;
 	text-decoration: none;
 	font-size: 30px;
 	font-weight: 500;
